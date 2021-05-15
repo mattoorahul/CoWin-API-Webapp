@@ -1,0 +1,36 @@
+
+input {
+    font-size: 24px !important;
+    line-height: 40px !important;
+}
+
+select {
+    font-size: 24px !important;
+    line-height: 40px !important;
+}
+
+.row {
+    margin-top: 50px !important;
+}
+
+#BtnSubmit{
+    text-align: center;
+    height: 45px !important;
+    width: 300px !important;
+    margin-left: 40% !important;
+    padding: auto !important;
+}
+
+#paraInfo{
+    text-align: center !important;
+    color: #0b3169;
+}
+
+#headApp {
+    text-align: right;
+}
+
+table td,th {
+    font-size: 18px !important;
+    line-height: 40px !important;
+}
