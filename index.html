@@ -11,9 +11,7 @@
 
 <body>
     <br>
-
-    <!-- <h4 id="headApp"><span class="badge bg-secondary">Last Updated:<span id="updateDate"></span></span></h4> -->
-    <div class="container">
+    <div class="container ">
         <div class="row ">
             <div class="alert alert-dark" role="alert" id="divInfo">
                 <p id="paraInfo">A simple utility app to check COVID-19 vaccine availability in nearby vaccination
@@ -24,38 +22,46 @@
         </div>
 
         <div class="row ">
-            <div class="col-12 col-md-6 ">
+
+            <div class=" col-12 col-lg-6">
                 <label for="API">Access APIs</label>
                 <select id="API" name="API" disabled class="form-select form-select-lg">
                     <option value="Appointment Availability" selected>Appointment Availability</option>
                 </select>
             </div>
-            <div class="col-12 col-md-6 ">
+            <div class=" col-12 col-lg-6 columns">
                 <label for="Vaccination Sessions">Vaccination Sessions</label>
                 <select id="Vaccination Sessions" name="sessionChecker" disabled class="form-select form-select-lg">
-                    <option value="Vaccination Sessions" selected>Get Vaccination Session by PIN for 7 days</option>
+                    <option value="Vaccination Sessions" selected>Get Vaccination Session by PIN for 7 days
+                    </option>
                 </select>
             </div>
+
         </div>
 
         <div class="row ">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-lg-6">
                 <label for="inpPincode" class="form-label">Pincode</label>
                 <input type="text" class="form-control" id="inpPincode" placeholder="Pincode">
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-lg-6 columns">
                 <label for="inpFromDate" class="form-label">From Date</label>
                 <input type="date" class="form-control" id="inpFromDate" placeholder="From Date">
             </div>
         </div>
 
 
-        <div class="row ">
-            <div class="col-12">
+        <div class="row d-flex justify-content-evenly">
+            <div class="col-12 col-lg-6">
                 <button type="button" class="btn btn-success btn-lg" id="BtnSubmit">Fetch Data</button>
+            </div>
+            <div class="col-12 col-lg-6 columns">
+                <button type="button" class="btn btn-warning btn-lg" id="BtnClear">Clear</button>
             </div>
         </div>
 
+        <div class="container ">
+        </div>
         <!-- <div class="row " data-con-row-id="0">
             <div class="col-12">
                 <table class="table table-striped p-2 " data-table-id="0">

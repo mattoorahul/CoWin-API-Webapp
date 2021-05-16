@@ -1,12 +1,12 @@
 
 input {
-    font-size: 24px !important;
-    line-height: 40px !important;
+    font-size: 2rem !important;
+    line-height: 3rem !important;
 }
 
 select {
-    font-size: 24px !important;
-    line-height: 40px !important;
+    font-size: 2rem !important;
+    line-height: 3rem !important;
 }
 
 .row {
@@ -15,10 +15,20 @@ select {
 
 #BtnSubmit{
     text-align: center;
-    height: 45px !important;
-    width: 300px !important;
-    margin-left: 40% !important;
-    padding: auto !important;
+    height: 4rem !important;
+    width: 400px !important;
+    font-size: 2rem !important;
+    /* margin-left: 40% !important;
+    padding: auto !important; */
+}
+
+#BtnClear{
+    text-align: center;
+    height: 4rem !important;
+    width: 400px !important;
+    font-size: 2rem !important;
+    /* margin-left: 5px !important; */
+    /* padding: auto !important; */
 }
 
 #paraInfo{
@@ -28,9 +38,35 @@ select {
 
 #headApp {
     text-align: right;
+    
 }
 
 table td,th {
-    font-size: 18px !important;
-    line-height: 40px !important;
+    font-size: 2rem !important;
+    line-height: 3rem !important;
 }
+
+body{
+    font-size: 2rem !important;
+    background-color: whitesmoke;
+    color: black !important;
+}
+
+select, input {
+    line-height: 2rem !important;
+}
+
+/* #updateDate {
+    margin-right: 10px !important;
+} */
+
+
+
+
+
+@media (max-width: 992px){
+    div.columns {
+        margin-top: 2rem !important;
+    }
+}
+

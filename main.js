@@ -367,36 +367,41 @@ function populateData(data) {
         return;
     }
 
-    if(data.centers.length == 0){
+    if (data.centers.length == 0) {
         alert("No Vaccination Sessions available for this date.")
         return;
     }
 
+    $('#BtnClear').removeClass('disabled')
+
     for (var i = 0; i < data.centers.length; i++) {
         var center = data.centers[i]
-        console.log(i , center)
+        console.log(i, center)
 
         $('<div>', {
-            'class': "row",
+            'class': "row mb-3",
             'data-con-row-id': `${i}`
-        }).appendTo('.container')
+        }).appendTo('.container .container')
 
         $('<div>', {
             'class': "col-12"
-        }).appendTo('div[data-con-row-id="' + `${i}` +'"]')
+        }).appendTo('div[data-con-row-id="' + `${i}` + '"]')
 
         $('<table>', {
             "class": "table table-striped p-2 ",
             "data-table-id": `${i}`
-        }).appendTo('div[data-con-row-id="'+ `${i}` + '"] .col-12')
+        }).appendTo('div[data-con-row-id="' + `${i}` + '"] .col-12')
 
         $('<caption>', {
-            'html': '<b>Center ID:</b> ' + center.center_id + ' <b>Center Name:</b> ' + center.name,
+            'html': '<p><b>Center ID:</b> ' + center.center_id.toString().trim() + ' <br><b>Center Name:</b> ' + center.name.toString().trim() + ' <br><b>Address:</b> ' + center.address + ', ' + center.district_name + ', ' + center.state_name + '</p>',
+            // 'display' : 'inline-block !important'
         }).appendTo('table[data-table-id="' + `${i}` + '"]')
 
         $('<thead>').appendTo('table[data-table-id="' + `${i}` + '"]')
 
         $('<tbody>').appendTo('table[data-table-id="' + `${i}` + '"]')
+
+
 
         $(' <tr><th scope="col">#</th><th scope="col">Date</th><th scope="col">Available Capacity</th><th scope="col">Min Age Limit</th>' +
             '<th scope="col">Vaccine</th>' +
@@ -405,12 +410,14 @@ function populateData(data) {
             '<th scope="col">From</th>' +
             '<th scope="col">To</th></tr>').appendTo('table[data-table-id="' + `${i}` + '"] > thead')
 
+
+
         var sessions = tempData.centers[i].sessions
         // var vaccines = tempData.centers[i].vaccine_fees
-        
+
         for (var j = 0; j < sessions.length; j++) {
             var session = sessions[j]
-            console.log(j , session)
+            console.log(j, session)
             // for (var k = 0; k < vaccines.length; k++) {
             //     var vaccine = vaccines[k].vaccine
             //     var fee = vaccines[k].fee
@@ -425,14 +432,23 @@ function populateData(data) {
             //         break;
             //     }
             // }
-            
+
             $('<tr><td>' + (j + 1) + '</td><td>' + session.date + '</td><td>' + session.available_capacity + '</td><td>' + session.min_age_limit + '</td><td>' + session.vaccine + '</td><td>' + center.fee_type + '</td><td>' + session.slots.join(', ')
-            + '</td><td>' + center.from + '</td><td>' + center.to + '</td></tr>').appendTo('table[data-table-id="'+ `${i}` + '"]')
-        
+                + '</td><td>' + center.from + '</td><td>' + center.to + '</td></tr>').appendTo('table[data-table-id="' + `${i}` + '"]')
+
         }
     }
 
 }
 
 
+$('#BtnClear').click(
+    function () {
+        $('div[data-con-row-id]').remove()
+        $('#BtnClear').toggleClass('disabled')
 
+        $('#inpPincode').val('')
+        $('#inpFromDate').val('')
+
+    }
+)
