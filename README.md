@@ -6,31 +6,33 @@ and data is dynamically populated on the web page using JQuery and JS.
 
 ScreenShot 1:
 
-![image](https://user-images.githubusercontent.com/34687415/118370503-981aa580-b5c5-11eb-944c-21d841223b35.png)
+![image](https://user-images.githubusercontent.com/34687415/118390728-436f3d00-b64e-11eb-975a-0be6fbbef3d4.png)
 
 ScreenShot 2:
 
-![image](https://user-images.githubusercontent.com/34687415/118370532-b4b6dd80-b5c5-11eb-85e7-a4ad5a979249.png)
+![image](https://user-images.githubusercontent.com/34687415/118390737-5124c280-b64e-11eb-8dd2-01b6c5a31591.png)
 
 ScreenShot 3:
 
-![image](https://user-images.githubusercontent.com/34687415/118370540-be404580-b5c5-11eb-8c7c-a36606c1a1d6.png)
+![image](https://user-images.githubusercontent.com/34687415/118390751-5f72de80-b64e-11eb-845d-53ceb9b8fdfc.png)
 
 ScreenShot 4:
 
-![image](https://user-images.githubusercontent.com/34687415/118370547-c4362680-b5c5-11eb-8704-a9af32b390ec.png)
+![image](https://user-images.githubusercontent.com/34687415/118390761-6f8abe00-b64e-11eb-8bff-620297950533.png)
 
 ScreenShot 5:
 
-![image](https://user-images.githubusercontent.com/34687415/118370550-c8fada80-b5c5-11eb-99bc-fa53446af386.png)
+![WhatsApp Image 2021-05-16 at 1 52 36 PM](https://user-images.githubusercontent.com/34687415/118390784-90ebaa00-b64e-11eb-83d9-c7e3e3b1e847.jpeg)
 
 ScreenShot 6:
 
-![image](https://user-images.githubusercontent.com/34687415/118370553-cdbf8e80-b5c5-11eb-9972-ba435146f93f.png)
+![WhatsApp Image 2021-05-16 at 1 52 36 PM (1)](https://user-images.githubusercontent.com/34687415/118390787-947f3100-b64e-11eb-88d7-5cf2bd58accc.jpeg)
 
-ScreenShot 7:
 
-![image](https://user-images.githubusercontent.com/34687415/118370565-d4e69c80-b5c5-11eb-92df-d5a3e91eee30.png)
+
+
+
+
 
 
 
