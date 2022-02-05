@@ -22,11 +22,11 @@ ScreenShot 4:
 
 ScreenShot 5:
 
-![WhatsApp Image 2021-05-16 at 1 52 36 PM](https://user-images.githubusercontent.com/34687415/118390784-90ebaa00-b64e-11eb-83d9-c7e3e3b1e847.jpeg)
+![image](https://user-images.githubusercontent.com/34687415/152644585-6d2e28cf-87bf-4a99-a2f7-db0d5649e23d.png)
 
 ScreenShot 6:
 
-![WhatsApp Image 2021-05-16 at 1 52 36 PM (1)](https://user-images.githubusercontent.com/34687415/118390787-947f3100-b64e-11eb-88d7-5cf2bd58accc.jpeg)
+![image](https://user-images.githubusercontent.com/34687415/152644605-380dda94-7c1e-4664-92e5-8d79637e9f44.png)
 
 
 
