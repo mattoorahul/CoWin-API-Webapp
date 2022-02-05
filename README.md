@@ -6,23 +6,23 @@ and data is dynamically populated on the web page using JQuery and JS.
 
 ScreenShot 1:
 
-![image](https://user-images.githubusercontent.com/34687415/118390728-436f3d00-b64e-11eb-975a-0be6fbbef3d4.png)
+![image](https://user-images.githubusercontent.com/34687415/152644656-46566a14-4044-4036-8fd5-1d7711cdf3f7.png)
 
 ScreenShot 2:
 
-![image](https://user-images.githubusercontent.com/34687415/118390737-5124c280-b64e-11eb-8dd2-01b6c5a31591.png)
+![image](https://user-images.githubusercontent.com/34687415/152644679-8d421bd1-0421-440c-9ddc-43878b0b91da.png)
 
 ScreenShot 3:
 
-![image](https://user-images.githubusercontent.com/34687415/118390751-5f72de80-b64e-11eb-845d-53ceb9b8fdfc.png)
+![image](https://user-images.githubusercontent.com/34687415/152644702-407bf6d6-7ded-4003-98b3-7aa4a7a05e0a.png)
 
 ScreenShot 4:
 
-![image](https://user-images.githubusercontent.com/34687415/118390761-6f8abe00-b64e-11eb-8bff-620297950533.png)
+![image](https://user-images.githubusercontent.com/34687415/152644727-66ae6846-a019-437d-a510-e6c869b756e4.png)
 
 ScreenShot 5:
 
-![image](https://user-images.githubusercontent.com/34687415/152644585-6d2e28cf-87bf-4a99-a2f7-db0d5649e23d.png)
+![Uploading image.png…]()
 
 ScreenShot 6:
 
